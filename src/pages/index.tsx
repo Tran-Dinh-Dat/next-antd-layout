@@ -75,12 +75,6 @@ export default function Home() {
       <Layout style={{ minHeight: "100vh" }}>
         <Header className="header" style={headerStyle}>
           <a href="" style={logoStyle}>
-            <Image
-              src="/images/antd-logo.svg"
-              width={28}
-              height={28}
-              alt="Ant logo"
-            />
             <Title style={logoTitle}>Ant Design Pro</Title>
           </a>
           <div style={flex11}></div>
